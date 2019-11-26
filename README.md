@@ -6,7 +6,7 @@ Code is written in Python 3.6 and requires:
 * grakel 0.1a6
 * scikit-learn 0.21
 
-#### Basic Usage
+### Basic Usage
 To run *SEGK* on Barbell graph, execute the following command from the project home directory:<br/>
 ``python segk.py --path-to-edgelist datasets/barbell.edgelist --path-to-output-file embeddings/barbell.txt``
 
