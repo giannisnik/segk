@@ -28,7 +28,7 @@ The output file contains *n* lines (where *n* is the number of nodes of the grap
 where dim1, ... , dimd is the *d*-dimensional representation learned by *SEGK*.
 
 ### Experiments
-In the project home directory, there are four jupyter notebook that reproduce the experiments presented in the paper.
+In the project home directory, there are four jupyter notebooks that reproduce the experiments presented in the paper.
 
 ### Cite
 Please cite our paper if you use this code:
