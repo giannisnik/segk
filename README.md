@@ -11,7 +11,7 @@ To run *SEGK* on Barbell graph, execute the following command from the project h
 ``python segk.py --path-to-edgelist datasets/barbell.edgelist --path-to-output-file embeddings/barbell.txt``
 
 #### Hyperparameters
-There are :
+The following three hyperparameters can be specified:
 * radius: the maximum radius of the neighborhood subgraphs
 * dim: the dimensionality of the generated embeddings
 * kernel: the employed graph kernel (either the shortest path kernel or the weisfeiler lehman kernel)
