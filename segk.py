@@ -29,7 +29,7 @@ def segk(nodes, edgelist, radius, dim, kernel):
     if kernel == 'shortest_path':
         gk = [ShortestPath(normalize=True, with_labels=True) for i in range(radius)]
     elif kernel == 'weisfeiler_lehman':
-        gk = [WeisfeilerLehman(n_iter=4, normalize=True, base_kernel=VertexHistogram) for i in range(radius)]
+        gk = [WeisfeilerLehman(n_iter=4, normalize=True, base_graph_kernel=VertexHistogram) for i in range(radius)]
     else:
         raise ValueError('Use a valid kernel!!')
 
