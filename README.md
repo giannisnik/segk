@@ -3,7 +3,7 @@ Code for the paper [Learning Structural Node Representations using Graph Kernels
 
 ### Requirements
 Code is written in Python 3.6 and requires:
-* grakel 0.1a6
+* grakel 0.1b7
 * scikit-learn 0.21
 
 ### Basic Usage
