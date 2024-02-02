@@ -40,7 +40,3 @@ Please cite our paper if you use this code:
   year={2019}
 }
 ```
-
------------
-
-Provided for academic use only
